@@ -76,3 +76,28 @@ a {
   height: 200px;
   width: 300px;
 }
+
+/*Locations-----------------------------------------*/
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("imgs/img-locations-background.jpg");
+}
+
+#infobox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lo-info {
+  height: 300px;
+  width: 300px;
+  margin: 15px 20px;
+  background-color: #000;
+}
