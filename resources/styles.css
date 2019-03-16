@@ -105,3 +105,15 @@ a {
   background-color: #000;
 /*specs adv opacity 1, as this is the default its not included*/
 }
+
+/*contact------------------------------------------------------*/
+
+#contact {
+  height: 200px;
+  width: 1000px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
