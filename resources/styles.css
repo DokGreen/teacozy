@@ -14,13 +14,14 @@ body {
 }
 /*nav-----------------------------------------*/
 #nav {
-  
+  position: fixed;
   height: 69px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid seashell;
+  background-color: #000;
 }
 
 #nav img {
@@ -41,6 +42,10 @@ a {
     color: seashell;
 }
 
+/*mainbod-----------------------------------*/
+#mainbod {
+  padding-top: 68px;
+}
 /*banner------------------------------------*/
 
 #banner {
@@ -129,4 +134,6 @@ a {
 
 #footer p {
   margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
