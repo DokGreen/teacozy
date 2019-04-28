@@ -13,7 +13,7 @@ body {
   text-align: center;
 }
 /*nav-----------------------------------------*/
-#nav {
+nav {
   position: fixed;
   height: 69px;
   width: 100%;
@@ -24,7 +24,7 @@ body {
   background-color: #000;
 }
 
-#nav img {
+nav img {
   height: 50px;
   margin-left: 10px;
 }
@@ -125,14 +125,14 @@ a {
 
 /*footer---------------------------------------------------------*/
 
-#footer {
+footer {
   height: 80px;
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-#footer p {
+footer p {
   margin-left: 20px;
   font-weight: bold;
   font-size: 20px;
