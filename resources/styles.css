@@ -14,7 +14,6 @@ body {
 }
 /*nav-----------------------------------------*/
 nav {
-  position: fixed;
   height: 69px;
   width: 100%;
   display: flex;
@@ -42,19 +41,16 @@ a {
     color: seashell;
 }
 
-/*mainbod-----------------------------------*/
-#mainbod {
-  padding-top: 68px;
-}
 /*banner------------------------------------*/
 
 #banner {
   height: 700px;
-  width: 1200px;
+  width: 90%; /*1200px*/
   margin: 0 auto;
-  display:flex;
+  display: flex;
   align-items: center;
   background-image: url("imgs/img-mission-background.jpg");
+  background-repeat: no-repeat;
 }
 /*section header txt----------------------*/
 .teatxt {
@@ -69,7 +65,7 @@ a {
 /*Tea Of the Month-------------------------------------*/
 
 #tom {
-  width: 1000px;
+  width: 80%;
   margin: 80px auto;
 }
 
@@ -86,12 +82,13 @@ a {
 
 #locations {
   height: 500px;
-  width: 1200px;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: url("imgs/img-locations-background.jpg");
+  background-repeat: no-repeat;
 }
 
 #infobox {
@@ -115,7 +112,7 @@ a {
 
 #contact {
   height: 200px;
-  width: 1000px;
+  width: 80%;
   margin: 10px auto;
   display: flex;
   justify-content: space-around;
@@ -136,4 +133,9 @@ footer p {
   margin-left: 20px;
   font-weight: bold;
   font-size: 20px;
+}
+
+/*TABLET SCREENS--------------------------------------------------------*/
+@media only screen and (max-width: 580px) and (min-width: 480px) {
+  
 }
