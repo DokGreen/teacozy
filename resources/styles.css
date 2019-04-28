@@ -137,5 +137,23 @@ footer p {
 
 /*TABLET SCREENS--------------------------------------------------------*/
 @media only screen and (max-width: 580px) and (min-width: 480px) {
-  
+  #banner {
+    background-position: center;
+  }
+
+  #banner .teatxt h4 {
+    display: none;
+  }
+  /*tom----------------------*/
+  #tom ul li h4 {
+    position: relative;
+    top: -120px;
+    font-size: 30px;
+    text-shadow: 0 0 5px #000;
+  }
+  /*locations----------------------*/
+  #locations {
+    background-position: center;
+    
+  }
 }
