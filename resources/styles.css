@@ -41,6 +41,10 @@ a {
     color: seashell;
 }
 
+#mobilenav {
+  display: none;
+}
+
 /*banner------------------------------------*/
 
 #banner {
@@ -172,8 +176,14 @@ footer p {
   }
 }
 
-@media only screen and (max-width: 480px) {
-  nav {
-    
+@media only screen and (max-width: 554px) {
+  #regnav {
+    display: none;
+  }
+
+  #mobilenav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
 }

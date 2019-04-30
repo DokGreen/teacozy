@@ -2,16 +2,22 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="resources/styles.css" rel="stylesheet" type="text/css">
     <title>Tea Cozy</title>
   </head>
   <body>
     <nav>
       <img src="resources/imgs/img-tea-cozy-logo.png" alt="teacozylogo">
-      <ul role="presentation"> <!--Screen readers wont read out the attributes-->
+      <ul id="regnav" role="presentation"> <!--Screen readers wont read out the attributes-->
         <li><a href="#">Mission</a></li>
         <li><a href="#">Featured Tea</a></li>
         <li><a href="#">Locations</a></li>
+      </ul>
+      <ul id="mobilenav">
+        <li class="fas fa-crosshairs"></li>
+        <li class="fas fa-mug-hot"></li>
+        <li class="fas fa-map-marker-alt"></li>
       </ul>
     </nav>
       <section id="banner">
