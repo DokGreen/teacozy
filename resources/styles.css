@@ -66,6 +66,10 @@ a {
   background-color: black;
 }
 
+#mobileban {
+  display: none;
+}
+
 /*Tea Of the Month-------------------------------------*/
 
 #tom {
@@ -145,8 +149,13 @@ footer p {
     background-position: center;
   }
 
-  #banner .teatxt h4 {
+  #banner .teatxt h4, #banner .teatxt h2{
     display: none;
+  }
+
+  #mobileban {
+    display: flex;
+    margin: 0 auto;
   }
   /*tom----------------------*/
   #tom ul li h4 {
