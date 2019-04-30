@@ -136,7 +136,7 @@ footer p {
 }
 
 /*TABLET SCREENS--------------------------------------------------------*/
-@media only screen and (max-width: 580px) and (min-width: 480px) {
+@media only screen and (max-width: 600px) {
   #banner {
     background-position: center;
   }
@@ -154,6 +154,26 @@ footer p {
   /*locations----------------------*/
   #locations {
     background-position: center;
+  }
+  #infobox {
+    flex-direction: column;
+  }
+
+  .lo-info {
+    height: 100px;
+  }
+
+  .lo-info p {
+    display: none;
+  }
+
+  footer p {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  nav {
     
   }
 }
